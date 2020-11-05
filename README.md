@@ -1,4 +1,4 @@
-[Готовое решение](https://ap-employees.herokuapp.com/employees "Heroku")
+[Готовое решение](https://ap-employee.herokuapp.com/employees "Heroku")
 
 ### Сделать приложение с двумя экранами: <br>
 * На первом экране должен отображаться список пользователей, с возможностью прокрутки.<br>
