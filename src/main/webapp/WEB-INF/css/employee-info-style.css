@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.photo__wrapper {
+    width: 128px;
+}
+
+.photo__wrapper > img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info__wrapper {
+    padding-left: 20px;
+    width: calc(100% - 128px);
+}
+
+.employee-info-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.employee-info-item .name {
+    width: 70%;
+}
+
+.employee-info-item .gender {
+    width: 30%;
+    text-align: right;
+}
+
+.employee-mail {
+    text-align: center;
+}
+
+.card > hr {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.link-home {
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo__wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info__wrapper {
+        width: 100%;
+        padding: 0;
+    }
+}
